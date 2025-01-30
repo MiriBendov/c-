@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "size";
+}
+<h1>@ViewData["Title"]</h1>
+<form method="post" asp-action="SaveSelection">
+    <!-- ציין את הפעולה בקונטרולר שתשמור את הבחירות -->
+    <div>
+        <label>
+            <input type="checkbox" name="sizes" value="Small" /> Small
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="sizes" value="Medium" /> Medium
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="sizes" value="Large" /> Large
+        </label>
+    </div>
+    <button type="submit">Submit</button> <!-- כפתור לשליחת הטופס -->
+</form>
+

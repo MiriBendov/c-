@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Photo</h1>
+    @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <p>Your Unique Code is: @ViewBag.UniqueCode</p>
+
+    <a asp-action="size">Go to Size</a>
+
+    <!-- כפתור להזמנה -->
+    <a asp-action="CreateOrder" class="btn btn-primary">Open Order</a>
+</div>

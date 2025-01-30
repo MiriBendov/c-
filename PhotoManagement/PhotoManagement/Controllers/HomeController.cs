@@ -59,5 +59,33 @@ namespace PhotoManagement.Controllers
         }
 
 
+        [HttpPost]
+        public IActionResult SubmitOrder(string name, string phone)
+        {
+            // שמירה של הערכים שהתקבלו במתודעה
+            string userName = name; // תוכן השם מה-input
+            string userPhone = phone; // תוכן הטלפון מה-input
+
+
+
+            //_logger.LogInformation("Received Name: {Name}, Phone: {Phone}", userName, userPhone);
+            ViewData["Name"] = userName; // החלף עם השם האמיתי
+            ViewData["Phone"] = userPhone; // החלף עם הטלפון האמיתי
+
+
+            //return View("size", new { Name = userName, Phone = userPhone });
+            return View("size");
+
+
+
+
+            // כעת תוכל להשתמש במשתנים userName ו-userPhone
+            // לדוגמה, תוכל להעביר אותם למסד נתונים בהמשך
+            // ... (קוד להעברת הנתונים למסד נתונים)
+
+            // דוגמה להחזרת דף אישור (אופציונלי)
+            //return RedirectToAction("size"); // אם יש דף אישור
+        }
+
     }
 }

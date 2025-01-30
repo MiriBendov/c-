@@ -22,3 +22,9 @@
     <button type="submit">Submit</button> <!-- כפתור לשליחת הטופס -->
 </form>
 
+@if (ViewData["Name"] != null && ViewData["Phone"] != null)
+{
+    <h1>Order Confirmation</h1>
+    <p>Name: @ViewData["Name"]</p>
+    <p>Phone: @ViewData["Phone"]</p>
+}

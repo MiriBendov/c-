@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\לימודים\\לימודים שנה ב\\c-sharp\\PhotoManagement\\BLL\\BLL.csproj": {}
+    "C:\\Users\\1\\Desktop\\c-\\PhotoManagement\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\לימודים\\לימודים שנה ב\\c-sharp\\PhotoManagement\\BLL\\BLL.csproj": {
+    "C:\\Users\\1\\Desktop\\c-\\PhotoManagement\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\לימודים\\לימודים שנה ב\\c-sharp\\PhotoManagement\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\c-\\PhotoManagement\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\1\\לימודים\\לימודים שנה ב\\c-sharp\\PhotoManagement\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\c-\\PhotoManagement\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\לימודים\\לימודים שנה ב\\c-sharp\\PhotoManagement\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\c-\\PhotoManagement\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
